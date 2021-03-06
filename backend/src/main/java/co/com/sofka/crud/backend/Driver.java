@@ -8,7 +8,7 @@ public class Driver {
         this.nameDriver = nameDriver;
     }
     protected String getDriverName(){
-        System.out.println("Ingrese el nombre del jugador 1");
+        System.out.println("Ingrese el nombre del jugador");
         try {
             nameDriver = buffer.readLine();
         }catch (IOException e){System.out.println("Error de proceso de datos");}
